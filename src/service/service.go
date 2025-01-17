@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
-	"simpleservice/src/helpers"
+	"baseservice/src/helpers"
 )
 
 type Service struct {
@@ -127,7 +127,7 @@ func (s *Service) Response() (map[string]interface{}, error) {
 	}
 
 	defer s.HTTPResponse.Body.Close()
-	body, err := ioutil.ReadAll(s.HTTPResponse.Body)
+	body, err := io.ReadAll(s.HTTPResponse.Body)
 	if err != nil {
 		return nil, err
 	}

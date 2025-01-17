@@ -1,10 +1,10 @@
 package main
 
 import (
+	"baseservice/src/helpers"
+	"baseservice/src/middleware"
+	"baseservice/src/service"
 	"fmt"
-	"simpleservice/src/helpers"
-	"simpleservice/src/middleware"
-	"simpleservice/src/service"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,4 +1,4 @@
-module simpleservice
+module baseservice
 
 go 1.22.1
 

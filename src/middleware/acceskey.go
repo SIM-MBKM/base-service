@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"simpleservice/src/helpers"
+	"baseservice/src/helpers"
 
 	"github.com/gin-gonic/gin"
 )
