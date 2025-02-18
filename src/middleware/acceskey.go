@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"baseservice/src/helpers"
+	"github.com/SIM-MBKM/base-service/src/helpers"
 
 	"github.com/gin-gonic/gin"
 )

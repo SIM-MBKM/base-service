@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"baseservice/src/helpers"
+	"github.com/SIM-MBKM/base-service/src/helpers"
 )
 
 type Service struct {

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"baseservice/src/helpers"
-	"baseservice/src/middleware"
-	"baseservice/src/service"
 	"fmt"
+
+	"github.com/SIM-MBKM/base-service/src/helpers"
+	"github.com/SIM-MBKM/base-service/src/middleware"
+	"github.com/SIM-MBKM/base-service/src/service"
 
 	"github.com/gin-gonic/gin"
 )
