@@ -1,5 +1,4 @@
-module baseservice
-
+module github.com/SIM-MBKM/base-service
 go 1.22.1
 
 require (
